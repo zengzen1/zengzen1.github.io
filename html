@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<h1>我的博客</h1>
-<form method="POST" action="http://localhost:8083/file/images" enctype="multipart/form-data" accept-charset="UTF-8">
-    <input type="file" name="file" /><br/><br/>
-    <input type="submit" value="Submit" />
-</form>
+<div>
+    <h1>曾振宇的博客</h1>
+    <span></span>
+</div>
+<div>
+    <h4>1.绝对路径引入图片</h4>
+    <img src="https://img1.baidu.com/it/u=3531680990,1189926718&fm=253&fmt=auto&app=138&f=JPEG?w=400&h=400.jpg"
+         style="width:50%;height:500px;"></img>
+    <h4>2.相对对路径引入图片</h4>
+    <img src="./images/logo.png">
+</div>
 </body>
 </html>
